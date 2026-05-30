@@ -130,6 +130,17 @@
     }
   }
 
+  @keyframes fade-slide {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   .animate-fade-in {
     animation: fade-in 0.8s ease-out both;
   }
@@ -180,6 +191,10 @@
     }
   }
 
+  .animate-fade-slide {
+    animation: fadeSlide 0.35s ease-out;
+  }
+
   .group:hover .animated-border-path {
     animation: animated-border 1.5s linear infinite;
   }
@@ -195,4 +210,13 @@
       0 0 40px color-mix(in srgb, var(--color-primary) 35%, transparent),
       0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
