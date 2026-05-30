@@ -1,5 +1,5 @@
-import Navbar from "./loayouts/Navbar";
-import { About, Contact, Education, Hero, Project, Skill } from "./sections";
+import { Navbar, Footer } from "./loayouts";
+import { About, Contact, Education, Hero, Project } from "./sections";
 
 const App = () => {
   return (
@@ -8,11 +8,11 @@ const App = () => {
       <main>
         <Hero />
         <About />
-        <Skill />
         <Project />
         <Education />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 };
