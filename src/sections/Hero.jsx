@@ -27,6 +27,7 @@ const skills = [
   "Deep Learning",
   "Soft Computing",
 ];
+
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -84,10 +85,12 @@ const Hero = () => {
                   Contact Me <ArrowRight className="w-5 h-5" />
                 </Button>
               </a>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <a href="/sreeramp_resume.pdf" download="Sreeram_P_Resume.pdf">
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download Resume
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
