@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const socialLinks = [
   { icon: FaGithub, href: "https://github.com/strangertomycode", label: "GitHub" },
   { icon: FaLinkedin, href: "https://www.linkedin.com/in/sreeram-p", label: "LinkedIn" },
-  { icon: Globe, href: "", label: "Portfolio" },
+  { icon: Globe, href: "https://sreeramp.netlify.app/", label: "Portfolio" },
 ];
 
 const footerLinks = [
