@@ -6,7 +6,7 @@ const education = [
     degree: "M.Tech in Computer Science and Engineering",
     specialisation: "AI & Software Engineering",
     institution: "Cochin University of Science and Technology",
-    period: "2024 – Present",
+    period: "2024 – 2026",
     highlights: [
       "Specialising in Artificial Intelligence and Software Engineering",
       "Coursework includes Deep Learning, Soft Computing, Agile Software Engineering, and Advanced Optimization Techniques",
