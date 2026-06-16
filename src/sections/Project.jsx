@@ -38,13 +38,6 @@ const projects = [
     github: "https://github.com/strangertomycode/flappy_bird_ai_neat",
   },
   {
-    title: "Automatic File Sorter",
-    description:
-      "An pp that organizes files in a specified folder into categorized subfolders (e.g., images, documents, videos) based on their file type. Simple and user-friendly, it’s perfect for decluttering directories with ease.",
-    tags: ["Python"],
-    github: "https://github.com/strangertomycode/automatic-file-sorter",
-  },
-  {
     title: "Fake Store App",
     description:
       "A fully functional shopping website built with React and the FakeStore API, featuring user authentication, product listing, detailed product pages, and cart management. It demonstrates modern state management with Context and React hooks alongside a responsive, mobile-first plain CSS design.",
