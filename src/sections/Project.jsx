@@ -10,6 +10,13 @@ const projects = [
     github: "https://github.com/strangertomycode/doctor-booking-api",
   },
   {
+    title: "Excel CRM Sync",
+    description:
+      "A Django web app that imports messy Excel/CSV spreadsheets, validates and cleans customer records (emails, phone numbers), prevents duplicates via email-based upsert, and exports CRM and invoicing-ready CSV files, eliminating manual data re-entry for small businesses.",
+    tags: ["Python", "Django", "PostgreSQL", "Pandas", "REST APIs"],
+    github: "https://github.com/strangertomycode/excel-crm-sync",
+  },
+  {
     title: "AI Web Scraper",
     description:
       "An AI-powered web scraper that lets users extract data from websites using plain English instructions. It combines Selenium, LangChain, and Ollama’s any model with a simple Streamlit interface.",
