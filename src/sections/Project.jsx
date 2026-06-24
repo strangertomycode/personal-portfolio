@@ -5,44 +5,44 @@ const projects = [
   {
     title: "Doctor Booking API",
     description:
-      "A Doctor Appointment Booking REST API built with Django and Django REST Framework featuring JWT authentication, doctor availability scheduling, appointment booking, cancellation, and role-based permissions. Includes doctor verification flow, medical history access control, filtering and pagination",
+      "REST API for end-to-end appointment management between patients and doctors. Built with Django REST Framework with JWT-secured endpoints, role-based access control, doctor availability scheduling, and medical history gating - architected with real-world healthcare access patterns in mind.",
     tags: ["Python", "Django", "Django REST Framework", "PostgreSQL", "REST APIs"],
     github: "https://github.com/strangertomycode/doctor-booking-api",
   },
   {
     title: "Excel CRM Sync",
     description:
-      "A Django web app that imports messy Excel/CSV spreadsheets, validates and cleans customer records (emails, phone numbers), prevents duplicates via email-based upsert, and exports CRM and invoicing-ready CSV files, eliminating manual data re-entry for small businesses.",
+      "A data pipeline tool that transforms messy client-submitted spreadsheets into clean, import-ready CRM records. Validates and normalises emails and phone numbers, deduplicates via upsert logic, and exports invoicing-ready CSVs - cutting hours of manual data entry for small businesses.",
     tags: ["Python", "Django", "PostgreSQL", "Pandas", "REST APIs"],
     github: "https://github.com/strangertomycode/excel-crm-sync",
   },
   {
     title: "AI Web Scraper",
     description:
-      "An AI-powered web scraper that lets users extract data from websites using plain English instructions. It combines Selenium, LangChain, and Ollama’s any model with a simple Streamlit interface.",
+      "Natural language-driven scraper that lets non-technical users extract structured data from any website without writing selectors. Powered by LangChain and a local Ollama LLM, with a Streamlit UI for zero-friction use - a practical demonstration of LLM tool-use in a real workflow.",
     tags: ["Python", "Streamlit", "LangChain", "Selenium", "Beautiful Soup"],
     github: "https://github.com/strangertomycode/ai_web_scraper",
   },
   {
-    title: "Zomato EDA",
+    title: "LeetCode Sync Tool",
     description:
-      "An exploratory data analysis (EDA) on a Zomato restaurants dataset, focusing on the restaurant landscape in Kochi. It visualizes various aspects such as establishment types, ratings, cuisines, and customer votes.",
-    tags: ["Python", "Jupyter Notebook", "Pandas", "Numpy"],
-    github: "https://github.com/strangertomycode/zomato-eda",
+      "Developer productivity tool that automatically syncs accepted LeetCode solutions to a GitHub repository, generating a structured README indexed by difficulty and topic. Demonstrates automation thinking and a habit of keeping engineering work organized and visible.",
+    tags: ["Python", "GitHub API", "Automation"],
+    github: "https://github.com/strangertomycode/leetcode-sync-tool",
   },
   {
     title: "Flappy Bird AI",
     description:
-      "A Flappy Bird game built using Pygame where a bird navigates through moving pipes by jumping at the right moments. The game serves as the environment for training an AI agent using the NEAT algorithm to learn and play autonomously.",
-    tags: ["Python", "NEAT"],
+      "A from-scratch implementation of Flappy Bird used as a training environment for a NEAT-based AI agent. The agent evolves over generations, learning collision avoidance and timing purely through fitness selection - a hands-on exploration of neuroevolution and reinforcement concepts.",
+    tags: ["Python", "Pygame", "NEAT", "Machine Learning"],
     github: "https://github.com/strangertomycode/flappy_bird_ai_neat",
   },
   {
-    title: "Fake Store App",
+    title: "Automatic File Sorter",
     description:
-      "A fully functional shopping website built with React and the FakeStore API, featuring user authentication, product listing, detailed product pages, and cart management. It demonstrates modern state management with Context and React hooks alongside a responsive, mobile-first plain CSS design.",
-    tags: ["JavaScript", "Reactjs", "HTML", "CSS", "FakeStore API"],
-    github: "https://github.com/strangertomycode/react_fake_store_app",
+      "A file automation tool that monitors a target folder and automatically sorts files into categorised subfolders based on file type - eliminating repetitive manual organisation. Demonstrates practical automation thinking applied to a common developer and power-user pain point.",
+    tags: ["Python", "Automation"],
+    github: "https://github.com/strangertomycode/automatic-file-sorter",
   },
 ];
 
